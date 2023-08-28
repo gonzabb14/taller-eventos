@@ -5,5 +5,6 @@ div[0].addEventListener("click", function(e) {
 });
 
 function saludar(event) {
-    alert("Hola");
+    event.stopPropagation();
+    alert("hola");
 }
